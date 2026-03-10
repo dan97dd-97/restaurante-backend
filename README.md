@@ -5,6 +5,7 @@
 - Un contenedor con una base de datos mysql llamada restaurante y un esquema de base de datos según ./data/initData/database.sql
 - Un contenedor con un phpmyadmin para acceder a la base de datos
   - usuario/pwd por defecto user/admin (se puede modificar en el fichero .env)
+
   ```
   localhost:8080
   ```
@@ -26,4 +27,9 @@
 ```
 docker compose up -d
 ```
+
 # restaurante-backend
+
+```
+http://localhost:4000/categories
+```
